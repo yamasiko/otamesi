@@ -1,1 +1,152 @@
-<p>aiueo</p>
+<!doctype html>
+<html lang="ja">
+     <head>
+        <meta charset="utf-8">
+         <title>なんばんめ？</title>
+         
+         
+         
+         <style>
+              h1{font-size: 40px;
+                  text-align: center;
+                  background-color:cyan
+             }
+             Marquee{font-size: 25px;
+                 line-height: 100px
+             }
+             h1{line-height: 80px;
+             }
+             p{text-align: center;
+                 line-height: 70px;
+             }
+             p{text-align: center;font-size: 25px;
+             }
+            
+             h2{
+                 text-align: center;
+                 font-size: 30px;
+                 line-height: 90px;
+                 
+             }
+             
+             div{text-align: center;}
+             
+             p4{text-align: center;
+                font-size: 30px;
+                color: #f44336;
+                line-height: 80px ;
+             }
+            
+             .box7{
+   
+                 padding: 0.5em 1em;
+                 margin: 2em 0;
+                 color: #474747;
+                 background: whitesmoke;
+                 border-left: double 10px #4ec4d3;
+                 border-right: double 10px #4ec4d3;
+                 width: 400px;  text-align: center;
+                 margin-left:auto;
+                 margin-right:auto;
+                 line-height: 70px;
+                 font-size: 25px;
+             }
+
+             .box7 p1 {
+                 margin: 0; 
+                 padding: 0;
+             } 
+             
+             
+             
+             .hidden_box {
+                 margin: 2em 0;/*前後の余白*/
+                 padding: 0;margin-left:auto;
+}
+
+/*ボタン装飾*/
+
+             .hidden_box label {
+                 padding: 15px;
+                 font-weight: bold;
+                 border: solid 2px black;
+                 cursor :pointer;
+                 
+             }
+
+             div{margin-left:auto;margin-right:auto;}
+/*ボタンホバー時*/
+
+             .hidden_box label:hover {
+                 background: #efefef;
+             }
+
+/*チェックは見えなくする*/
+             .hidden_box input {
+                 display: none;
+             }
+
+/*中身を非表示にしておく*/
+             .hidden_box .hidden_show {
+                 height: 0;
+                 padding: 0;
+                 overflow: hidden;
+                 opacity: 0;
+                 transition: 0.8s;
+             }
+             
+/*クリックで中身表示*/
+             .hidden_box input:checked ~ .hidden_show {
+                 padding: 10px 0;
+                 height: auto;
+                 opacity: 1;
+             }
+             
+             
+         </style>
+         
+         
+         
+    </head>
+    
+    <body>
+        <h1>こんかいは「なんばんめ」をべんきょうしていこう！</h1>
+        
+        <h2>まずはれいだいをといてみよう（できなくてもだいじょうぶだよ！）</h2><br>
+        
+        <p>〇〇〇★〇〇<br>1、くろいろのほしはみぎからなんばんめでしょか？<br>2、くろいろのほしはひだりからなんばんめでしょうか？</p>
+        
+        
+        <div class="hidden_box">
+    <label for="label1">クリックするとこたえがでるよ！</label>
+            
+    <input type="checkbox" id="label1"/>
+            
+    <div class="hidden_show">
+      <!--非表示ここから-->     
+      	<p4>1、みぎから3ばんめ<br>2、ひだりから4ばんめ</p4>
+      <!--ここまで-->
+    </div>
+            
+
+        </div>
+        
+        <Marquee>なんばんめ？のどうががしたにあるからクリックしてみてね</Marquee>
+        
+        <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2pzVDV6zT4E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+        </p>
+            
+        <p>どうがをみおわったらしたのれんしゅうもんだいをやってみよう↓</p>
+        
+        
+        
+        <div class="box7">
+            
+        <p1>
+        <a href="https://scratch.mit.edu/projects/431492483/"target="_blank" rel="noopener noreferrer">なんばんめ？のれんしゅうもんだい</a></p1>
+
+        </div>    
+            
+    </body>
+</html>
